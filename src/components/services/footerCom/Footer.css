@@ -1,0 +1,64 @@
+.foter{
+    margin-top: 10px;
+    height:320px;
+    padding: 80px 13% 70px;
+    background: #1a242f;
+    }
+
+.foter-content{
+    height: 100%;
+        display :flex;
+        justify-content: space-between;
+        list-style: none;
+        text-decoration: none;
+        gap:3.5rem;
+        
+    }
+.image{
+    background-color: white;
+        height:50%;
+        
+    
+    }
+.foter-content .icons1 i{
+        color:white;
+        list-style: none;
+        text-decoration: none;
+    }
+.foter-content .icons li a{
+    text-decoration: none;
+    line-height: 12px;
+    }
+.foter-content .icons a{
+        color:white;
+        gap:50px;
+    }
+.h2{
+    color: white;
+}
+.Paris{
+    color: white;
+    
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media{
+    text-align: center;
+    height: default;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    /* margin-left: 300px; */
+}
+.im{
+    background:none;
+    cursor: pointer;
+}
+.contactus{
+    color:white;
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;1,700&display=swap');
+body{
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+   
+}
+.body{
+    height:800px;
+    width:100%;
+    background-image: url("images/medals\ \(2\).webp");
+    background-size: cover;
+    background-position: center;
+   
+}
+.boody{
+    height:500px;
+    width:100%;
+    /* border:2px solid blue; */
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:100px;
+    }
+    .game05{
+        color:white;
+        width:35%;
+        font-family:"Olympic Headline", Helvetica, sans-serif;
+        FONT-SIZE:35px;
+        LINE-HEIGHT:95px;
+        TEXT-ALIGN:start;
+        LETTER-SPACING:normal;
+        margin-left: 80px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        /* border: 2px solid green; */
+            
+        }
+    
+    .boody2{
+    font-family:"Olympic Headline", Helvetica, sans-serif;
+    height:auto;
+    width:85%;
+    /* border:2px solid red;  */
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    }
+    
+    
+    .p{
+        
+        font-size: 25px;
+        font-weight: 800;
+        color:white;
+        line-height: 25px;
+    }
+
+.madels{
+    /* border:2px solid red; */
+    height:300px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+   
+.madels1{
+    height: 100%;
+    width : 40%;
+    /* border:2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.madels2{
+    height: 100%;
+    width : 60%;
+    /* border:2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.madels11 h2{
+    font-size: 48px;
+    line-height: 58px;
+    
+}
+.madels2 p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing:normal ;
+
+}
+.games-table{
+    height:100px;
+    width: 100%;
+    text-align: center;
+}
+.see{
+    font-size: 20px;
+    
+}
+.madeltable{
+    font-size: 50px;
+    font-weight: 800;
+}
+.table{
+    cursor: pointer;
+}

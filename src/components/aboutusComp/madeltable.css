@@ -1,0 +1,51 @@
+.styled-table{
+    border-collapse: collapse; 
+    margin: 25px,0;
+    font-size: 0.9em;
+    font-family:sans-serif ;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    margin-left:px;
+
+ }
+ .styled-table thead tr{
+     background-color: #009879;
+     color:#ffffff;
+     text-align: left;
+ }
+ .sn{
+    color:black;
+ }
+ .styled-table th,
+ .styled-table td{
+     padding: 12px 15px;
+ }
+ .styled-table tbody tr{
+     border-bottom:1px solid  #dddddd;
+ }
+ .styled-table tbody:nth-of-type(even){
+     background-color: #f3f3f3;
+ }
+ .s{
+     background-color:rgb(151, 202, 152);
+ }
+ .btn1{
+cursor : pointer;
+}
+
+.game-image{
+height:35px;
+}
+.madel-table{
+background-image: linear-gradient(
+ 43deg,  
+ blue 20%,
+ brown 20%,
+ orange 20%,
+ red 20%,
+ green 100%
+);
+-webkit-background-clip: text; /* For Safari */
+background-clip: text; /* Standard syntax */
+color: transparent;
+}

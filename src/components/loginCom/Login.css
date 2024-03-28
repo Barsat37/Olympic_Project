@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.acount_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full_container{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("images/pariss.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+.Login-container {
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 500px;
+    background: rgb(34,34,34); 
+    background: rgba(34,34,34,0.75); 
+    
+    
+    
+    
+}
+.Login h2{
+    color:rgb(198, 204, 22);
+    font-weight: 800;
+}
+
+input {
+    border:none;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#n5 {
+    background-color: #8b51ff;
+    color: #fff;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 800;
+}
+#n5:hover{
+    border:none;
+    background:#a48bd6 ;
+    color:black;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+
+span{
+    color:white;
+    font-weight: 800;
+}
+.login{
+    color:white;
+    font-weight: 800;
+    border:none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #8b51ff;
+    cursor: pointer;
+}
+.backhome{
+    border:none;
+    color: red;
+    cursor: pointer;
+}

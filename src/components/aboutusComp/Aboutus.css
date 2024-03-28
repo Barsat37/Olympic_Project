@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;1,700&display=swap');
+body{
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.bodoy{
+    height:100%;
+    width:100%;
+   
+}
+.bodoy{
+    height:500px;
+    width:100%;
+    background-image: url("images/aboutusparis.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+.boody{
+height:500px;
+width:100%;
+/* border:2px solid blue; */
+display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+.boody1{
+    background-image: url("images/parisaboutus.webp");
+    background-size: cover;
+    background-position: center;
+height:100%;
+width:40%;
+/* border:2px solid red; */
+
+
+}
+.booody2{
+height:100%;
+width:38%;
+/* border:2px solid red; */
+
+margin-left: 130px;
+
+
+
+}
+.h111{
+    text-align: center;
+    color:rgb(198, 204, 22);
+    font-weight: 800;
+}
+.pipe{
+    font-weight: 800;
+    color:black;
+    line-height: 25px;
+}
+
+
+
+
+
+
+.game{
+    width:35%;
+    font-family:"Olympic Headline", Helvetica, sans-serif;
+    FONT-SIZE:35px;
+    LINE-HEIGHT:95px;
+    TEXT-ALIGN:start;
+    LETTER-SPACING:normal;
+    margin-left: 80px;
+    margin-top:20px;
+    margin-bottom: 20px;
+        
+    }
+    .ingame{
+        height:350px;
+        width:80%;
+        margin-left: 80px;
+        display: flex;
+        gap:20px;
+        
+          /* border:2px solid red;   */
+    }
+    .game1{
+        height:100%;
+        width:60%;
+        border-radius: 12px;
+        background-image: url("images/results.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+    }
+    .game2{
+        height:100%;
+        width:40%;
+        border-radius: 12px;
+        background-image: url("images/replays.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .game1 p{
+        color:white;
+        margin-top : 20px;
+        margin-left : 20px;
+        font-size : 50px;
+        display: inline;
+    
+    
+    }
+    .game2 p{
+        display: inline;
+        color : white;
+        margin-top : 20px;
+        margin-left : 20px;
+        font-size : 50px;
+        display: inline;
+        /* border: 2px solid red; */
+    }
+    .game1 p:hover{
+        cursor: pointer;
+            font-size : 55px;
+            transition: font-size 0.2s ease-in-out 0.2s;
+        
+    }
+    .game2 p:hover{ 
+        cursor: pointer;
+        font-size : 55px;
+        transition: font-size 0.2s ease-in-out 0.2s;
+    }
+    
+    
+    .ingame2{
+        margin-top: 20px;
+        height:350px;
+        width:80%;
+        margin-left: 80px;
+        display: flex;
+        gap:20px;
+        
+          /* border:2px solid red;   */
+    }
+    .game11{
+        height:100%;
+        width:60%;
+        border-radius: 12px;
+        background-image: url("images/ancientgames.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+    }
+    
+    .game22{
+        height:100%;
+        width:40%;
+        border-radius: 12px;
+        background-image: url("images/medals.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .game11 p{
+        color:white;
+        margin-top : 20px;
+        margin-left : 20px;
+        font-size : 50px;
+        display: inline;
+    
+    
+    }
+    .game22 a{
+        display: inline;
+        color : white;
+        margin-top : 20px;
+        margin-left : 20px;
+        font-size : 50px;
+        display: inline;
+        text-decoration: none;
+        /* border: 2px solid red; */
+    }
+    .game11 p:hover{
+        cursor: pointer;
+            font-size : 55px;
+            transition: font-size 0.2s ease-in-out 0.2s;
+        
+    }
+    .game22 p:hover{ 
+        cursor: pointer;
+        font-size : 55px;
+        transition: font-size 0.2s ease-in-out 0.2s;
+    }
+    .past-game{
+    background-color: #e5e5e5;
+    font-family:"Olympic Headline", Helvetica, sans-serif;
+    FONT-SIZE:30px;
+    LINE-HEIGHT:95px;
+    TEXT-ALIGN:start;
+    LETTER-SPACING:normal;
+    
+    /* margin-top:20px;
+    margin-bottom: 20px; */
+    }
+    .past-game #hi{
+        margin-left: 80px;
+    }
+    #hi:hover{
+        color:white;
+        background-color: black;
+        transition: font-size 0.2s ease-in-out 0.2s;
+    
+        
+    }
+    #infoTable {
+        width: 500px;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+        background-color: rgb(67, 67, 153);
+        color:white;
+    }
+    .pyaris-name{
+        font-size: 50px;
+        background-color: white;
+        color:black
+        
+    }
+    
+    #infoTable h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    #infoTable table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    #infoTable th, #infoTable td {
+        padding: 50px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        color: black;
+    }
+    
+    #infoTable th {
+        font-weight: normal;
+    }
+    .contact-us{
+        height:450px;
+        width:100%;
+       
+        
+    }
+    .conta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conttactus{
+        color:black;
+        font-size: 50px;
+        font-weight: 800;
+        
+        margin-top:50px;
+    }
+    iframe{
+        height: 100%;
+        width:100%;
+    }
+    .contac{
+        margin-top: 50px;
+        color:black;
+        FONT-SIZE:16px;
+LINE-HEIGHT:24px;
+TEXT-ALIGN:start;
+LETTER-SPACING:normal;
+display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }

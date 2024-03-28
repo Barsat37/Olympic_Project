@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+height: 100%;
+width: 100%;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container01{
+    width: 100%;
+    height : 620px;
+    /* border: 2px solid greenyellow;  */
+    background-image : linear-gradient(rgb(13, 50, 2),rgba(23, 5, 88, 0.3));
+    position : relative;
+    padding : 0 5%;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+} 
+.wel{
+    color:white;
+    text-align: center;
+}
+.discover{
+    color:white;
+    text-align: center;
+}
+.create{
+    margin-left: 38%;
+}
+.create{
+    color:white;
+    border: none;
+    background-color: rgb(240, 60, 60);
+    height :40px;
+    padding: 12px 30px;
+    margin-top: 9px;
+    border-radius: 30px;
+   
+}
+.create:hover{
+    background-color: white;
+    border: 1px solid black;
+    color:red;
+    transition: 0.2s all ease-in;
+   }
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.container2{
+    height:300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+    
+    
+    
+}
+.container2 .ol{
+    padding-top: 15px;
+width:25%;
+font-family:"Olympic Headline", Helvetica, sans-serif;
+FONT-SIZE:35px;
+LINE-HEIGHT:80px;
+TEXT-ALIGN:start;
+LETTER-SPACING:normal;
+
+}
+.container2 .ol1{
+    width:53%;
+    font-family:"Olympic Sans", Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size:28px;
+    line-height:37px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.live_event{
+    height:700px;
+    width:100%;
+    /* border:2px solid black; */
+   
+
+}
+.lives{
+    height:700px;
+    width:70%;
+    /* border:2px solid red; */
+    margin:auto auto;
+
+}
+.lives h2{
+    font-weight: 800;
+    text-align: center;
+}
+.live1{
+    height:50%;
+    width:100%;
+     /* border:2px solid blue;  */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap:40px;
+
+}
+.live2{
+    height:46%;
+    width:100%;
+     /* border:2px solid greenyellow;  */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap:40px;
+     
+
+}
+.lvideo1{
+    height:70%;
+    width:40%;
+     border:1px solid black; 
+   background-image: url(images/img1.webp);
+   background-size:cover;
+   
+   cursor: pointer;
+   
+}
+.lvideo2{
+    height:70%;
+    width:40%;
+    /* border:2px solid red; */
+    background-image: url(images/img2.webp);
+   background-size:cover ;
+   
+   cursor: pointer;
+   border:1px solid black; 
+}
+.lvideo3{
+    height:70%;
+    width:40%;
+    /* border:2px solid red; */
+    background-image: url(images/img3.webp);
+   background-size:cover ;
+   
+   cursor: pointer;
+   border:1px solid black; 
+}
+.lvideo4{
+    height:70%;
+    width:40%;
+    /* border:2px solid red; */
+    background-image: url(images/img4.webp);
+   background-size:cover ;
+   
+   cursor: pointer;
+   border:1px solid black; 
+}
+.lvideo5{
+    height:70%;
+    width:40%;
+    /* border:2px solid red; */
+    background-image: url(images/img5.webp);
+   background-size:cover ;
+   
+   cursor: pointer;
+   border:1px solid black; 
+}
+.lvideo6{
+    height:70%;
+    width:40%;
+    /* border:2px solid red; */
+    background-image: url(images/img6.webp);
+   background-size:cover ;
+   
+   cursor: pointer;
+   border:1px solid black; 
+}
+
+
+button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+    transition: 0.2s all ease-in;
+   }
+   .btn{
+    color:red;
+    font-size: 20px;
+    background-color: transparent;
+   }
+
+   .future{
+    font-family:"Olympic Headline", Helvetica, sans-serif;
+    FONT-SIZE:15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    TEXT-ALIGN:start; 
+    margin-left: 100px; 
+    }
+    .paris{
+        height : 700px;
+        background-image: url("images/pariss.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .date{
+        width:200px;
+        position:relative;
+        top:250px;
+        left:110px;
+        line-height: 50px;
+        
+    }
+    .date p{
+        font-size: 20px;
+        color: white;
+    }
+    .date h1{
+        color: white;
+        font-size: 100px;
+        line-height: 90px;
+    }
+    .past-game #hi{
+        margin-left: 80px;
+    }
+    #hi:hover{
+        color:white;
+        background-color: black;
+        transition: font-size 0.2s ease-in-out 0.2s;
+    
+        
+    }
+    
